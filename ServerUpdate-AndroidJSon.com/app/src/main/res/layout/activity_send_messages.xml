@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clg"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AttendanceReportActivity"
+
+
+    >
+
+
+    <EditText
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="top"
+        android:hint="Enter your text..."
+        android:textSize="22sp"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn3"
+        android:onClick="btnSms"
+        android:text="Send Message"
+        android:textSize="25sp"
+        tools:ignore="OnClick"
+
+        />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn3"
+        android:gravity="center"
+        android:text="Back"
+        android:textSize="20sp"
+
+        />
+
+
+</LinearLayout>

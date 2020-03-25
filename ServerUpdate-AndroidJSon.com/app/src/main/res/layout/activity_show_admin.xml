@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_show_single_record"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Welcome To Admin Main page"
+        android:textColor="#EB9A9A"
+        android:textSize="30dp"
+
+        />
+
+    <Button
+        android:id="@+id/buttonShowTrainers"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/btn3"
+        android:text="Show All Trainers"
+
+        />
+
+    <Button
+        android:id="@+id/btnAddTrainer"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn3"
+        android:onClick="btnAddTrainer"
+        android:text="Add New Trainer"
+
+        />
+
+
+    <Button
+        android:id="@+id/editUserName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn3"
+        android:onClick="btnEditDetails"
+        android:text="Edit Your User_Name" />
+
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn3"
+        android:onClick="previous"
+        android:text="Logout" />
+
+
+</LinearLayout>
